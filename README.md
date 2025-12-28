@@ -51,3 +51,74 @@ Transform
 Load
 
 - Built data relationships and optimized the model for interactive dashboards
+
+---
+
+## 📊 Metrics Tracked
+
+| Metric                | Description                             |
+| --------------------- | --------------------------------------- |
+| Total Rides           | Total number of ride requests           |
+| Confirmed Rides (%)   | Successful bookings                     |
+| Unconfirmed Rides (%) | Failed or dropped bookings              |
+| ABT                   | Average Booking Time                    |
+| ACT                   | Average Cab Arrival Time                |
+| ABOT                  | Average Booking Outcome Time            |
+| Z-Score Bins          | Statistical grouping for delay analysis |
+
+---
+
+## 🔍 Key Insights
+
+- Peak-hour congestion is the primary driver of ride delays, with Taxi Stand and Pickup Zones consistently showing the highest impact.
+
+- A persistent gap between ABT and ACT across all zones highlights systemic operational inefficiencies rather than isolated issues.
+
+- Outlier rides, though few in number, disproportionately inflate average delay metrics, masking true operational performance.
+
+- Excluding outliers reveals stable and predictable baseline operations across most pickup zones.
+
+- Elevated unconfirmed ride rates during peak hours indicate a clear supply-demand mismatch and fleet allocation challenges.
+
+---
+
+## 📊 Dashboard & Analytics
+
+- KPI cards for overall ride performance  
+- ABT vs ACT comparison by pickup zone  
+- Peak vs Non-Peak time segmentation  
+- Z-score distribution to identify delay intensity  
+- Toggle between Normal vs Outlier rides  
+- Side-by-side comparison before and after removing outliers  
+
+🖼 *Power BI dashboard screenshots are included below*
+
+---
+
+🧰 Tools & Techniques
+
+- Power BI Desktop
+
+- DAX (Data Analysis Expressions)
+
+- Z-Score for Statistical Outlier Detection
+
+- ETL Process Modeling
+
+- KPI Cards, Bar Charts, Filters, and Slicers
+
+---
+
+## 📈 Business Value
+
+- Reduces peak-hour delays by identifying congestion-heavy pickup zones and time windows
+
+- Improves booking confirmation rates through zone-wise and time-based performance insights
+
+- Separates true operational issues from anomalies using Z-score based outlier detection
+
+- Supports smarter fleet allocation during peak vs non-peak demand periods
+
+- Improves customer experience by minimizing wait times and unexpected cancellations
+
+- Enables data-driven operational decisions instead of relying on overall averages
