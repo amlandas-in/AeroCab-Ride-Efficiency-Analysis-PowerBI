@@ -92,6 +92,9 @@ Load
 - Side-by-side comparison before and after removing outliers  
 
 🖼 *Power BI dashboard screenshots are included below*
+![image alt](https://github.com/amlandas-in/AeroCab-Ride-Efficiency-Analysis-PowerBI/blob/4df7b16082b394169a961494f2406ea8ec2fce24/assets/AeroCab_OverallDB.png)
+![image alt](https://github.com/amlandas-in/AeroCab-Ride-Efficiency-Analysis-PowerBI/blob/4df7b16082b394169a961494f2406ea8ec2fce24/assets/AeroCab_OutlierDB.png)
+![image alt](https://github.com/amlandas-in/AeroCab-Ride-Efficiency-Analysis-PowerBI/blob/4df7b16082b394169a961494f2406ea8ec2fce24/assets/AeroCab_ComparisonDB.png)
 
 ---
 
