@@ -82,7 +82,7 @@ This project aims to:
 
 ---
 
-## 📊 Dashboard & Analytics
+## 📊 Dashboard & Analysis
 
 - KPI cards for overall ride performance  
 - ABT vs ACT comparison by pickup zone  
