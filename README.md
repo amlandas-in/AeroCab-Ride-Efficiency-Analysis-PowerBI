@@ -24,11 +24,11 @@ This project aims to:
 
 ## 🔄 Data Pipeline (ETL in Power BI)
 
-Extract
+1. Extract
 
 - Loaded raw ride-level booking data into Power BI
 
-Transform
+2. Transform
 
 - Created key operational metrics:
 
@@ -48,7 +48,7 @@ Transform
 
   - Outlier → Z > 2
 
-Load
+3. Load
 
 - Built data relationships and optimized the model for interactive dashboards
 
